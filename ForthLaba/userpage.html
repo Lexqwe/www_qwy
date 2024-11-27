@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserPage</title>
+    <link rel = "stylesheet" href ="css/upstyle.css"> 
+    <header class = "Navpannel">
+        <section class ="Navpannel-block">
+            <nav>
+                <a href="index.html">
+                    <div class = "Navpannel-Mainimg"></div>
+                </a>
+                <div class = "Navpannel-Proffile">
+                    <a href = "userpage.html">
+                        <div class = "Navpannel-Proffile-img"></div>
+                    </a>
+                </div>
+            </nav>
+        </section>
+    </header>
+</head>
+<body>
+    <main class="AccBlock">
+        <section class="AccBlock-UserStats">
+            <div class="AccBlock-UserStats-ImgBlock">
+                <div class="AccBlock-UserStats-ImgBlock-Img"></div>
+            </div>
+            <article class="AccBlock-UserStats-TextBlock">
+                <div class="AccBlock-UserStats-TextBlock-Bar">
+                    <span class="AccBlock-UserStats-TextBlock-Bar-LBlock">Name</span>
+                    <span class="AccBlock-UserStats-TextBlock-Bar-RBlock">Roman Kisilev</span>
+                </div>
+                <div class="AccBlock-UserStats-TextBlock-Bar">
+                    <span class="AccBlock-UserStats-TextBlock-Bar-LBlock">Mail</span>
+                    <span class="AccBlock-UserStats-TextBlock-Bar-RBlock">Roman123@gmail.com</span>
+                </div>
+                <div class="AccBlock-UserStats-TextBlock-Bar">
+                    <span class="AccBlock-UserStats-TextBlock-Bar-LBlock">Phone number</span>
+                    <span class="AccBlock-UserStats-TextBlock-Bar-RBlock">89080123123</span>
+                </div>
+                <section class="AccBlock-UserStats-FuncBlock">
+                    <button class = "AccBlock-UserStats-FuncBlock-But">
+                        <span class="AccBlock-UserStats-FuncBlock-But-Text">Кнопка</span>
+                    </button>
+                    <button class = "AccBlock-UserStats-FuncBlock-But">
+                        <span class="AccBlock-UserStats-FuncBlock-But-Text">Кнопка</span>
+                    </button>
+                    <button class = "AccBlock-UserStats-FuncBlock-But">
+                        <span class="AccBlock-UserStats-FuncBlock-But-Text">Кнопка</span>
+                    </button>
+                    <button class = "AccBlock-UserStats-FuncBlock-But">
+                        <span class="AccBlock-UserStats-FuncBlock-But-Text">Кнопка</span>
+                    </button>
+                    <button class = "AccBlock-UserStats-FuncBlock-But">
+                        <span class="AccBlock-UserStats-FuncBlock-But-Text">Кнопка</span>
+                    </button>
+                </section>
+            </article>
+        </section>
+        <section class="AccBlock-ListBlock">
+            <article class=" AccBlock-ListnameBlock">
+                <span class="AccBlock-ListnameBlock-Name">Посещенные раннее | Избранное</span>
+            </article>
+            <article class="AccBlock-AccFavoredList">
+                <span class="AccBlock-AccFavoredList-Item">Запись 1</span>
+                <span class="AccBlock-AccFavoredList-Item">Запись 1</span>
+                <span class="AccBlock-AccFavoredList-Item">Запись 1</span>
+                <span class="AccBlock-AccFavoredList-Item">Запись 1</span>
+                <span class="AccBlock-AccFavoredList-Item">Запись 1</span>
+            </article>
+        </section>
+        <form class = "AccBlock-Social">
+            <div class = "AccBlock-Social-TopBlock">S U B S C R I B E</div>
+            <span class = "AccBlock-Social-MiddleTextBlock">Только лучшие рецепты<br>от Mr.Pot.ru</span>
+            <div class = "AccBlock-Social-InputBlock">
+                <label class ="label-Social">Enail:</label>
+                <input pattern="^\S+@\S+\.\S+$" name="email" id="email" placeholder="user@example.com" required></input>
+            </div>
+            <div class = "AccBlock-Social-InputBlock">
+                <label class ="label-Social">Phone:</label>
+                <input pattern="[0-9]{11}" name="phone" id="phone" placeholder="89324249582" required></input>
+            </div>
+            <div class = "AccBlock-Social-InputBlock">
+                <label class ="label-Social">City:</label>
+                <input pattern = "^[А-Яа-яЁё\s]+$" name="city" id="city" placeholder="Сургут" required></input>
+            </div>
+            <button type = "submit" class = "AccBlock-Social-But">Подписаться</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,634 @@
+body{
+    background-color: #face95;
+    width: 100%;
+    height: 100%;
+}
+/*------------------------------------------*/
+
+/*Banner*/
+.banner{
+    display: flex;
+    position: relative;
+    width: 1264px;
+    height: 355px;
+    margin-left: 308px;
+    top: 100px;
+}
+
+.banner-slider{
+    display: flex;
+}
+
+.banner-next-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 95%;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    color: white;
+}
+
+.banner-prev-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    color: white;
+}
+
+
+.banner-img{
+    width: 1264px;
+    height: 355px;
+    border-radius: 30px;
+    filter: brightness(60%);
+}
+
+
+.banner-textblock{
+    position: absolute;
+    width: 446px;
+    height: 167px;
+    left: 80px;
+    top: 82px;
+}
+
+
+.banner-foodname{
+    position: absolute;
+    width: 446px;
+    height: 102px;
+    left: 80px;
+    top: 112px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 127%;
+    /* or 51px */
+
+    color: #FFFFFF;
+
+}
+
+.banner-uptext{
+    /* Trending now */
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    left: 80px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 127%;
+    /* or 30px */
+    
+    color: #DC582A;
+}
+
+.banner-uptext:hover{
+    border-bottom: solid 1px #DC582A;
+}
+
+.banner-recuser{
+    /* By John Mike */
+
+    position: absolute;
+    width: 131px;
+    height: 25px;
+    left: 80px;
+    top: 224px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 127%;
+    /* or 25px */
+
+    color: #FFFFFF;
+}
+
+
+
+.banner-pointslist{
+    /* PointsList */
+    display: flex;
+    position: absolute;
+    width: 49px;
+    height: 7px;
+    left: 608px;
+    top: 338px;
+}
+
+
+.banner-point{
+    flex:auto;
+    background-color: #D5D5D5;
+}
+
+
+/*------------------------------------------*/
+
+.Navpannel{
+    /* Nav */
+    position: fixed;
+        max-width: 1300px;
+    width: 80%;
+    height: 80px;
+    margin-left: 290px;
+    top: 0px;
+
+    z-index: 2;
+}
+
+.Navpannel-block{
+    position: fixed;
+    max-width: 1300px;
+    width: 80%;
+    height: 80px;
+    top: 0px;
+    background: #5FA746;
+
+    z-index: 2;
+}
+
+
+.Navpannel-Proffile{
+    /* Profile */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1230px;
+    top: 20px;
+}
+
+.Navpannel-Proffile-img{
+    /* Prof */
+
+    width: 42px;
+    height: 42px;
+
+    background: url(/img/img-prof.png), #5FA746;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Navpannel-Mainimg{
+    /* Cookpal 1 */
+
+    position: absolute;
+    width: 70px;
+    height: 69px;
+    left: 30px;
+    top: 3px;
+
+    background-image: url(/img/img-main1.png);
+}
+
+/* -------------------- */
+
+.MainFood-Block{
+    /* MainFoodBlock */
+
+    /* Auto layout */
+    display: flex;
+    /* align-items: center; */
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 1265px;
+    height: 775px;
+    top: 485px;
+    margin-left: 308px;
+}
+
+/* - */
+.MainFood-DesBlock{
+    /* DesBlock */
+
+    width: 780px;
+    height: 775px;
+
+    
+    /* Inside auto layout */
+    display: flex;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.MainFood-DesBlock-TextBlock{
+    /* DesTextBlock */
+
+    position: absolute;
+    width: 780px;
+    height: 384px;
+    left: 0px;
+    top: 360px;
+}
+
+
+.MainFood-DesBlock-TextRect{
+    /* Rounded Rectangle */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 780px;
+    height: 384px;
+    left: 0px;
+    top: 0px;
+
+    background: #D3FFC8;
+    border: 1px solid #000000;
+    border-radius: 16px;
+}
+
+.MainFood-DesBlock-Text{
+    /* DesText */
+
+    position: absolute;
+    width: 770px;
+    height: 374px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+    z-index: 1;
+}
+
+
+.MainFood-DesBlock-Product{
+/* card-product */
+
+    position: absolute;
+    width: 779px;
+    height: 315px;
+    left: 1px;
+    top: 31px;
+
+    background: #D3FFC8;
+    border: 1px solid #000000;
+    /* Shadow/shadow-sm */
+    border-radius: 16px;
+}
+
+.MainFood-DesBlock-Product-NameBlock{
+    /* Content */
+
+    position: absolute;
+    width: 763px;
+    height: 283px;
+    left: 8px;
+    top: 8px;
+}
+
+.MainFood-DesBlock-Product-Img{
+    /* image/rounded */
+
+    position: absolute;
+    height: 200px;
+    left: 8px;
+    right: 8px;
+    top: 8px;
+
+    background: url(/img/img-testfood.png);
+    border-radius: 16px;
+}
+
+.MainFood-DesBlock-Product-Round{
+    /* Rounded Rectangle */
+
+    position: absolute;
+    left: 0%;
+    right: -15.17%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 16px;
+}
+
+.MainFood-DesBlock-Product-NameBlock-TextBlock{
+    /* Frame 22 */
+
+    position: absolute;
+    width: 265px;
+    height: 59px;
+    left: 22px;
+    top: 232px;
+
+}
+
+.MainFood-DesBlock-Product-NameBlock-Text{
+    /* Group 5 */
+
+    position: absolute;
+    width: 137px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* - */
+.MainFood-DesBlock-ProductList{
+    /* productList */
+    width: 465px;
+    height: 775px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.MainFood-DesBlock-ProductList-Block{
+    /* productListBlock */
+    position: absolute;
+    width: 465px;
+    height: 775px;
+    left: 800px;
+    align-items: center;
+}
+
+.MainFood-DesBlock-ProductList-Block-NameBlock{
+    /* productListBlockName */
+    position: absolute;
+    width: 465px;
+    height: 30px;
+    z-index: 1;
+}
+
+.MainFood-DesBlock-ProductList-Block-NameBlock-Text{
+    /* productListBlockNameText */
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    width: 465px;
+    height: 30px;
+    top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+}
+
+
+.MainFood-DesBlock-ProductList-Block-NameBlock-Rounded{
+    /* Rounded Rectangle */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 465px;
+    height: 715px;
+    top: 30px;
+    background: #D3FFC8;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    z-index: 0;
+}
+
+.MainFood-DesBlock-ProductList-Block-List{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 415px;
+    height: 570px;
+    left: 25px;
+    top: 72.5px;
+}
+
+.MainFood-DesBlock-ProductList-Block-List-Item{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    border-bottom: 1px solid #000000;
+    width: 415px;
+    height: 56px;
+    min-height: 56px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+/* ------------------------- */
+
+.RecipeBlock{
+    /* RecipeBlock */
+
+    position: absolute;
+    width: 1270px;
+    height: 800px;
+    margin-left: 305px;
+    top: 1260px;
+}
+
+.RecipeBlock-List{
+    /* Card Grid Content List */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+    gap: 48px;
+
+    position: absolute;
+    width: 1257px;
+    height: 800px;
+
+}
+
+.RecipeBlock-List-Block{
+    /* Cards */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1129px;
+    height: 672px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.RecipeBlock-List-Item{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    width: 1129px;
+    min-width: 240px;
+    height: 208px;
+
+    background: linear-gradient(0deg, #D3FFC8, #D3FFC8), #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.RecipeBlock-List-Item-Image{
+    /* Image */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 160px;
+    min-width: 160px;
+    height: 160px;
+
+    /* Image Placeholder */
+    background: url(image.png), #E3E3E3;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.RecipeBlock-List-Item-TextBlock{
+    /* Body */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 600px;
+    min-width: 160px;
+    height: 160px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.RecipeBlock-List-Item-TextBlock-Title{
+    /* Title */
+
+    width: 897px;
+    height: 29px;
+
+    /* Heading */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    letter-spacing: -0.02em;
+
+    color: #1E1E1E;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.RecipeBlock-List-Item-TextBlock-Text{
+    /* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+    width: 897px;
+    height: 44px;
+
+    /* Body Base */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
