@@ -189,7 +189,7 @@ body{
     width: 42px;
     height: 42px;
 
-    background: url(/img/img-prof.png), #5FA746;
+    background: url(./img/img-prof.png), #5FA746;
 
     /* Inside auto layout */
     flex: none;
@@ -206,7 +206,7 @@ body{
     left: 30px;
     top: 3px;
 
-    background-image: url(/img/img-main1.png);
+    background-image: url(./img/img-main1.png);
 }
 
 /* -------------------- */
@@ -325,7 +325,7 @@ body{
     right: 8px;
     top: 8px;
 
-    background: url(/img/img-testfood.png);
+    background: url(./img/img-testfood.png);
     border-radius: 16px;
 }
 
